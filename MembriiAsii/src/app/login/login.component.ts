@@ -9,7 +9,7 @@ import {LoginModel} from './login.model';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
-  form: FormGroup;
+  public form: FormGroup;
   public loginInvalid: boolean;
   private formSubmitAttempt: boolean;
   private returnUrl: string;
